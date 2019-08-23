@@ -1,5 +1,7 @@
 package prikhodko.lesson02;
 
+import java.util.Scanner;
+
 /*
 Ускорение свободного падения на Земле и Марсе таково:
 Марс   3.86
@@ -30,5 +32,12 @@ package prikhodko.lesson02;
 
 */
 class TaskC3 {
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        double result = a / 9.81 * 3.86;
+        double roundOff = Math.round(result * 100) / 100.00;
+        System.out.println(roundOff);
+    }
 }
+
