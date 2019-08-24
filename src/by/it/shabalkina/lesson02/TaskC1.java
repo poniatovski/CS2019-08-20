@@ -1,6 +1,5 @@
 package by.it.shabalkina.lesson02;
 
-import com.sun.source.doctree.SummaryTree;
 
 /* Нужно написать программу, которая вводит два числа с клавиатуры
 и выводит их сумму на экран в виде
@@ -17,7 +16,7 @@ class TaskC1 {
     public static void main(String[] arg) {
         int a = 34;
         int b = 26;
-        int  c = a + b;
+        int c = 60;
         System.out.println("Sum = " + c);
     }
 }
