@@ -1,6 +1,5 @@
 package by.it.konovalova.lesson02;
 
-import java.math.RoundingMode;
 import java.util.Scanner;
 
 /*
@@ -40,7 +39,7 @@ class TaskC3 {
        // System.out.printf("%.2f" , j);
        System.out.println(j);
     }
-        public static double getWeight(int weight) {
+        private static double getWeight(int weight) {
         double gz = 9.81 ;
         //double mz = weight / gz;
          //   double roundOff1 = (double) Math.round(mz * 100)/100;
@@ -48,12 +47,11 @@ class TaskC3 {
         //double mm = weight / gm;
          //   double roundOff2 = (double) Math.round(mm * 100)/100;
         double weight1 = gm * weight / gz;
-        double roundOff = (double) Math.round(weight1 * 100)/100;
+        return (double) Math.round(weight1 * 100)/100;
             //weight1 = (Double)Math.floor(weight1*100)/100.0;
         //double roundOff = Math.round(weight1 * 100.0)/100.0;
 
 
-        return roundOff;
     }
     /*public static void main(String[] args) {
         double i = 5.55;
