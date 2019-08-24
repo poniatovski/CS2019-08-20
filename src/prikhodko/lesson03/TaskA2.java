@@ -24,10 +24,10 @@ Lesson 03. Task A2. Стихотворение
 */
 class TaskA2 {
     public static void main(String[] args) {
-        String a = "первая стр";
-        String b = "kjhad";
-        String c = "dfgs";
-        String d = "sg";
+        String a = "Все начинается с любви...";
+        String b = "Твердят: \"Вначале было слово...\"";
+        String c = "А я провозглашаю снова:";
+        String d = "Все начинается с любви!..";
         out.println("Мое любимое стихотворение:");
         out.println(a + "\n" + b + "\n" + c + "\n" + d);
     }
