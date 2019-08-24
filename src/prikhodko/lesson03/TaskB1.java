@@ -29,11 +29,11 @@ strictfp class TaskB1 {
     public static  void main(String[] args) {
         double d = 111.111;
         byte b = (int)111;
-        String convert = Integer.toBinaryString(b);
+        Integer.toString(b, 2);
         long o = 111;
-        Long.toOctalString(o);
+        String str = Long.toString(o);
         int h = 111;
-        convert = Integer.toHexString(h);
+        Integer.toString(h, 16);
         float f = 111.111f;
         System.out.println(d + b + o + h + f);
         System.out.println(d + " " + b + " " + o + " " + h + " " + f);
