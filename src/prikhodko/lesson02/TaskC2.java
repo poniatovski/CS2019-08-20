@@ -39,7 +39,7 @@ class TaskC2 {
         convert = Integer.toOctalString(b);
         System.out.print(convert+"=");
         convert = Integer.toOctalString(result);
-        System.out.print(convert);
+        System.out.println(convert);
     }
 
 }
