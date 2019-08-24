@@ -55,5 +55,4 @@ class TaskA1 {
         double dmod = a % b;
         System.out.println(dsum + " " + dsub + " " + dmul + " " + ddiv + " " + dmod + " ");
     }
-
 }
