@@ -28,9 +28,12 @@ import java.math.BigInteger;
 strictfp class TaskB1 {
     public static  void main(String[] args) {
         double d = 111.111;
-        byte b = 111;
+        byte b = (int)111;
+        String convert = Integer.toBinaryString(b);
         long o = 111;
+        Long.toOctalString(o);
         int h = 111;
+        convert = Integer.toHexString(h);
         float f = 111.111f;
         System.out.println(d + b + o + h + f);
         System.out.println(d + " " + b + " " + o + " " + h + " " + f);
