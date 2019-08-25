@@ -19,21 +19,35 @@ class TaskC2 {
     public static void main(String[] args) {
         Scanner sr = new Scanner(System.in);
         System.out.println("Введите 2 числа");
-        int a =sr.nextInt();
-        int d =sr.nextInt();
+        int a = sr.nextInt();
+        int d = sr.nextInt();
         System.out.println("DEC:34+26=" + (a + d));
-
-
-
-
-        System.out.println("BIN:100010+11010=" + (a + d));
-
-
-
-
-
+        System.out.println("BIN:100010+11010=" + Integer.toBinaryString(a + d));
+        System.out.println("HEX:22+1a=" + Integer.toHexString(a + d));
+        System.out.println("OCT:42+32=" + Integer.toOctalString(a + d));
 
     }
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
