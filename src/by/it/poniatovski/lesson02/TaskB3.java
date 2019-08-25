@@ -9,16 +9,13 @@ package by.it.poniatovski.lesson02;
         4. Выведенный текст должен соответствовать заданию.
 */        
 class TaskB3 {
-        public static void main(String[] args) {
-//        String s = "C";
-//        System.out.println("Новым Годом");
+    public static void main(String[] args) {
+
+
 //        System.out.println("C Новым");
 //        System.out.println("Годом");
-//        System.out.print("C Новым");
-//        System.out.println("Годом");
-//        System.out.println(s);
-//        System.out.print("C Новым!");
-//        System.out.print(" ");
-//        System.out.println("Годом");
+
     }
 }
+
+

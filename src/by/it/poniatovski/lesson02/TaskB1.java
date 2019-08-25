@@ -16,8 +16,21 @@ int i=sc.nextInt();
 2. В программе необходимо создать объект типа Scanner.
 3. Программа должна считывать число типа Int с клавиатуры.
 4. Программа должна выводить квадрат считанного числа.
-
+sc.nextInt()
  */
 
+import java.util.Scanner;
+
 class TaskB1 {
+    public static void main(String[] args) {
+
+        System.out.println("Ввeдите чило i");
+
+        Scanner sc=new Scanner(System.in);
+
+        int i =sc.nextInt();
+
+
+        System.out.println(i * i);
+    }
 }
