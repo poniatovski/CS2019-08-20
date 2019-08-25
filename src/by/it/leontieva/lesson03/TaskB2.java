@@ -1,5 +1,9 @@
 package by.it.leontieva.lesson03;
 
+import jdk.dynalink.beans.StaticClass;
+
+import java.util.Scanner;
+
 /*
 Lesson 03. Task B2. Нужно написать программу, которая вводит три числа  a b c типа int с клавиатуры
 и вычисляет корни квадратного уравнения a*a*x + b*x + c = 0:
@@ -30,5 +34,17 @@ Lesson 03. Task B2. Нужно написать программу, котора
 
 */
 class TaskB2 {
-
+    public static void main(String[] args) {
+        int a, b, c;
+        double d, x, x1, x2;
+        Scanner scanner = new Scanner(System.in);
+        a = scanner.nextInt();
+        b = scanner.nextInt();
+        c = scanner.nextInt();
+        d = Math.sqrt((double) (b * b) - (4 * a * c));
+        x1 = ((double) -b - d) / (2 * a);
+        x2 = ((double) -b + d) / (2 * a);
+        System.out.println(x1  + " " +x2);
+    }
 }
+
