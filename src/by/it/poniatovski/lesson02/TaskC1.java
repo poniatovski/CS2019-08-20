@@ -18,9 +18,8 @@ class TaskC1 {
         Scanner k = new Scanner(System.in);
 
         System.out.println ("Введите 2 числа ");
-
-        int a = k.nextInt();
-        int b = k.nextInt();
+        int a=k.nextInt();
+        int b=k.nextInt();
         System.out.println("Sum = " + (a + b));
 
     }

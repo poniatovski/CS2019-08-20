@@ -9,7 +9,7 @@ package by.it.poniatovski.lesson02;
 Scanner sc=new Scanner(System.in);
 
 Прочитать число можно так:
-int i=sc.nextInt();
+canner sr = new Scanner(System.in);
 
 Требования:
 1. Программа должна выводить текст.
