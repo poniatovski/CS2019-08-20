@@ -35,6 +35,7 @@ class TaskC3 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int i =sc.nextInt();
+
         double j = getWeight(i);
        // System.out.printf("%.2f" , j);
        System.out.println(j);
