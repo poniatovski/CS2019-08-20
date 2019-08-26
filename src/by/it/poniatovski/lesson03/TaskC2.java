@@ -21,11 +21,27 @@ package by.it.poniatovski.lesson03;
 */
 public class TaskC2 {
 
+   public static void main(String[] args) {
+       System.out.println(sumDigitsInNumber(5467));    
+       
+   }
 
+    private static int sumDigitsInNumber(int number) {
 
+        int sum = 0;
+        int currentDigit;
+        currentDigit = number % 10;
+        sum = sum + currentDigit;
+        number = number / 10;
+        currentDigit = number % 10;
+        sum = sum + currentDigit;
+        number = number / 10;
+        currentDigit = number % 10;
+        sum = sum + currentDigit;
+        number = number / 10;
+        sum = sum + number;
+        return sum;
 
-//    public static void main(String[] args) {
-//        System.out.println(sumDigitsInNumber(5467));
-//    }
+    }
 
 }
