@@ -50,7 +50,6 @@ class TaskB2 {
            System.out.println("Отрицательный дискриминант");
        }
 
-
        return diskr;
    }
 
