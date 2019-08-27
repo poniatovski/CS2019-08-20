@@ -44,6 +44,7 @@ class TaskB2 {
         d = Math.sqrt((double) (b * b) - (4 * a * c));
         x1 = ((double) -b - d) / (2 * a);
         x2 = ((double) -b + d) / (2 * a);
+        x = ((double)(-b)/(2*a));
         System.out.println(x1  + " " +x2);
     }
 }
