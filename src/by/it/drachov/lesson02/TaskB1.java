@@ -19,5 +19,9 @@ int i=sc.nextInt();
 
  */
 
+import java.util.Scanner;
+
 class TaskB1 {
-}
+
+    }
+
