@@ -47,8 +47,8 @@ class TaskB2 {
         }
     }
 
-    public static double dis(int a, int b, int c) {
-        double d = b * b - (4 * a * c);
-        return (double) d;
+    private static double dis(int a, int b, int c) {
+            double d = b * b - (4 * a * c);
+            return (int) d;
     }
 }

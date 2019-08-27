@@ -31,8 +31,7 @@ public class TaskC2 {
         int j2 = (i / 100) - (j1 * 10);
         int j3 = (i / 10) - (j2 * 10) - (j1 * 100);
         int j4 = i - (j3 * 10) - (j2 * 100) - (j1 * 1000);
-        int sum = j1 + j2 + j3 + j4;
-        return (int) sum;
+        return (j1 + j2 + j3 + j4);
     }
 
 
