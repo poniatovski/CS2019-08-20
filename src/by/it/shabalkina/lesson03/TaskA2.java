@@ -22,7 +22,12 @@ Lesson 03. Task A2. Стихотворение
 */
 class TaskA2 {
     public static void main(String[] args) {
-        String a = "жили у бабуси";
-    String b = "два веселых гуся";
-    String c = }
+        String a="Жили у бабуси";
+        String b="Два веселых гуся";
+        String c="Один серый, другой - белый";
+        String d="Петя и Маруся.";
+
+        System.out.println("Мое любимое стихотворение:");
+        System.out.println(a+"\n"+b+"\n"+c+"\n"+d);
+    }
 }
