@@ -44,7 +44,7 @@ public class TaskA2 {
                 System.out.println("четверг");
                 break;
             case 5:
-                System.out.println("ппятница");
+                System.out.println("пятница");
                 break;
             case 6:
                 System.out.println("суббота");
