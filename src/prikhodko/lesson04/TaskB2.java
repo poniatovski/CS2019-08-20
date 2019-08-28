@@ -33,12 +33,15 @@ public class TaskB2 {
             int y=1;
             while (x<=size){
                 System.out.print(x+" ");
-                while(y<=size)
-                {y++;
-                    System.out.print(x*y+" ");
+                while(y<=size) {
+                    y++;
+                    if (y > size)
+                        break;
+                    System.out.print(x * y + " ");
                 }
                 x++;
-                System.out.println(y=y-size);
+                y=1;
+                System.out.println("");
             }
     }
 }
