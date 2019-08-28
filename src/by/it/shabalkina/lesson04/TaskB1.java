@@ -1,5 +1,8 @@
 package by.it.shabalkina.lesson04;
 
+import java.io.InputStream;
+import java.util.Scanner;
+
 /*
 Определите количество дней в году
 
@@ -25,6 +28,16 @@ package by.it.shabalkina.lesson04;
 4. Если введенный год не является високосным, необходимо вывести текст: "количество дней в году: 365"
 
 */
-public class TaskB1 {
+public class TaskB1<Year> {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int Year = scanner.nextInt();
+        if ((Year % 4 == 0) && (Year % 100 != 0))
+            System.out.println("количество дней в году: 366");
+        else if ((Year % 4 == 0) && (Year % 400 == 0))
+            System.out.println("количество дней в году: 366");
+        else
+            System.out.println("количество дней в году: 365");
 
+    }
 }
