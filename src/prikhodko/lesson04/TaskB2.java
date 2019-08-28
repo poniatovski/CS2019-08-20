@@ -29,6 +29,17 @@ public class TaskB2 {
     public static void main(String[] args) throws Exception{
     Scanner sc=new Scanner(System.in);
             int size=sc.nextInt();
+            int x=1;
+            int y=1;
+            while (x<=size){
+                System.out.print(x+" ");
+                while(y<=size)
+                {y++;
+                    System.out.print(x*y+" ");
+                }
+                x++;
+                System.out.println(y=y-size);
+            }
     }
 }
 
