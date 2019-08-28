@@ -28,4 +28,7 @@ package by.it.leontieva.lesson04;
  */
 public class TaskC2 {
 
+
+
+
 }
