@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson05;
+package by.it.leontieva.lesson05;
 
 /*
 Создайте список строк.
@@ -20,5 +20,6 @@ END
 
 */
 public class TaskA2 {
+
 
 }
