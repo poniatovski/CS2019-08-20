@@ -24,5 +24,19 @@ package by.it.zhuk.lesson04;
 */
 
 public class TaskC3 {
+    public static void main(String[] args) {
+        int i;
+        int j;
+        String wordi = "";
+        String wordj = "";
+        String wordmul = "";
+        for (i = 2; i <= 10; i+=1) {
+            for (j = 2; j <= 10; j+=1) {
+                int mul = i * j;
 
+                System.out.println(i + " умножить на " + j + " равно " + mul );
+
+            }
+        }
+    }
 }

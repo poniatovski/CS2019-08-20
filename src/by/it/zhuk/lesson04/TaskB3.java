@@ -25,7 +25,17 @@ package by.it.zhuk.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        int sum = 0;
+        for (int i = 1; sum < number; i++) {
+            sum = sum + i;
 
+            System.out.print(sum + ",");
+        }
+    }
 }
