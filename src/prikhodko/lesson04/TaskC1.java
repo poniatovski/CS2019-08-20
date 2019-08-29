@@ -43,7 +43,7 @@ public class TaskC1 {
         System.out.println("Какую вы хотите зарплату в $$$?");
         Scanner sc = new Scanner(System.in);
         double x = sc.nextInt();
-        if (x >= 300 || x <= 3000) {
+        if (x >= 300 && x <= 3000) {
             double x2 = x * 1.5;
             System.out.println("За месяц 0 начислено $0.0" + "\n" + "За январь начислено $" + x2);
             if (x2 == 666.0)
@@ -56,7 +56,7 @@ public class TaskC1 {
             if (x == 666.0)
                 return;
             System.out.println("За июль начислено $" + x + "\n" +
-                    "За август начислено $" + x2 + "\n" +
+                    "За август начислено $" + x + "\n" +
                     "За сентябрь начислено $" + x2 + "\n" +
                     "За октябрь начислено $" + x2 + "\n" +
                     "За ноябрь начислено $" + x2 + "\n" +
