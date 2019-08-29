@@ -39,3 +39,10 @@ public class TaskB3 {
         }
     }
 }
+
+// do {
+//            sum = sum + i;
+//            System.out.print(sum + ",");
+//            i++;
+//        } while (sum<number);
+//
