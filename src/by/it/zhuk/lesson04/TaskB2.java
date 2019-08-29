@@ -29,12 +29,20 @@ public class TaskB2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
-        for (int i = 1; i <= size; i++) {
-            for (int k = 1; k <= size; k++) {
+        int i = 1;
+        while (i <= size) {
+            int k = 1;
+            while (k <= size) {
                 System.out.print(k * i + " ");
+                k++;
             }
             System.out.println("");
+            i++;
         }
     }
-
 }
+
+//
+//
+//
+//
