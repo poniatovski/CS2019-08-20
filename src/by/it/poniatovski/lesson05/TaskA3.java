@@ -13,6 +13,30 @@ package by.it.poniatovski.lesson05;
 0 9
 */
 
-public class TaskA3 {
+import java.util.Scanner;
 
+public class TaskA3 {
+    public static void main(String[] args) {
+        int[] array = new int[10];
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < array.length; i++) {
+
+            array[i] = scanner.nextInt();
+
+
+        }
+        int min = array[0];
+        int max = array[0];
+        for (int element : array) {
+
+            if (min > element) min = element;
+
+            if (max < element) max = element;
+
+
+        }
+        System.out.println(min + " " + max);
+
+
+    }
 }
