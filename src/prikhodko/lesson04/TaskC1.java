@@ -41,16 +41,29 @@ import java.util.Scanner;
 public class TaskC1 {
     public static void main(String[] args) {
         System.out.println("Какую вы хотите зарплату в $$$?");
-        Scanner sc=new Scanner(System.in);
-                int i=sc.nextInt();
-                int month = 0;
-                if (i<=300||i>=3000){
-                    System.out.println("Мы вам перезвоним!");
-                }
-                else System.out.println("За месяц "+month+" начислено "+"$"+0.0);
-            System.out.println("За январь начислено "+"$"+i*1.5);
-        System.out.println("За февраль начислено "+"$"+i*1.5);
-    }
-
-
-}
+        Scanner sc = new Scanner(System.in);
+        double x = sc.nextInt();
+        if (x >= 300 || x <= 3000) {
+            double x2 = x * 1.5;
+            if (x2 == 666.0)
+                return;
+            System.out.println("За месяц 0 начислено $0.0" + "\n" +
+                    "За март начислено $" + x2 + "\n" +
+                    "За апрель начислено $" + x2 + "\n" +
+                    "За май начислено $" + x2 + "\n" +
+                    "За июнь начислено $" + x + "\n");
+            if (x == 666.0)
+                return;
+            System.out.println("За июль начислено $" + x + "\n" +
+                    "За август начислено $" + x2 + "\n" +
+                    "За сентябрь начислено $" + x2 + "\n" +
+                    "За октябрь начислено $" + x2 + "\n" +
+                    "За ноябрь начислено $" + x + "\n" +
+                    "За декабрь начислено $" + x2 + "\n" +
+                    "За месяц начислено $" + x2 + "\n" +
+                    "За  начислено $" + x + "\n");
+            {
+            }
+            System.out.println("Мы вам перезвоним!");
+        }
+    }}
