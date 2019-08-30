@@ -21,5 +21,8 @@ b=[11, 22, 33, 44, 55, 66, 77, 88, 99, 0]
 */
 
 public class TaskB2 {
+    public static void main(String[] args) {
+
+    }
 
 }

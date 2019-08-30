@@ -10,6 +10,22 @@ package by.it.leontieva.lesson05;
 */
 
 
+import java.util.ArrayList;
+
 public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("one");
+        list.add("two");
+        list.add("three");
+        list.add("four");
+        list.add("five");
+        int a = list.size();
+        System.out.println(a);
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
+
+    }
 
 }
