@@ -19,6 +19,35 @@ Index of last element=1
 
 */
 
-public class TaskB3 {
+import javax.management.ObjectName;
+import java.util.Arrays;
+import java.util.Scanner;
 
-}
+
+public class TaskB3 {
+    public static void main(String[] args) {
+        int[] m = new int[10];
+      Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < m.length; i++) {
+            m[i] = scanner.nextInt();
+            Arrays.sort(m);
+            for (int j = 0; j <m.length; j++) {
+                int min = m[j];
+                int max = m[m.length-1];
+                
+
+            }
+        }
+
+
+
+
+
+
+
+            
+
+
+
+
+
