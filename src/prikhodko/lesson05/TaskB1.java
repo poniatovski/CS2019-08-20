@@ -10,6 +10,21 @@ package prikhodko.lesson05;
 */
 
 
+import java.util.ArrayList;
+
 public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> list=new ArrayList<>();
+        list.add (0, "The first line");
+        list.add (1, "The second line");
+        list.add (2, "The third line");
+        list.add (3, "The fourth line");
+        list.add (4, "The fifth line");
+        int len = list.size();
+        System.out.println(len);
+        for (int i = 0; i < 5; i++) {
+            System.out.println(list.get(i));
+        }
+    }
 
 }
