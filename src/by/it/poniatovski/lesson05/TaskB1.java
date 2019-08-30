@@ -10,6 +10,28 @@ package by.it.poniatovski.lesson05;
 */
 
 
+import java.util.ArrayList;
+
+
 public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+
+        list.add("я");
+        list.add("изучаю");
+        list.add("java");
+        list.add("в");
+        list.add("it-академии");
+
+
+        System.out.println(list.size());
+
+
+        for (String s : list) {
+            System.out.println(s);
+        }
+
+
+    }
 
 }
