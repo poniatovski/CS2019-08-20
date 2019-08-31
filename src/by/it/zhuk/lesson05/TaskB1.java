@@ -10,6 +10,20 @@ package by.it.zhuk.lesson05;
 */
 
 
-public class TaskB1 {
+import java.util.ArrayList;
 
+public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("Hello");
+        list.add("World");
+        list.add("Computer");
+        list.add("Science");
+        list.add("java");
+        int size = list.size();
+        System.out.println(size);
+        for (int i=0; i < size; i++) {
+            System.out.println(list.get(i));
+        }
+    }
 }
