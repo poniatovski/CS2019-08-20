@@ -27,7 +27,17 @@ size прочитать c клавиатуры. Числа разделить п
  */
 public class TaskB2 {
     public static void main(String[] args) {
-
+        Scanner scanner=new Scanner(System.in);
+        int n=scanner.nextInt();
+        int i = 1;
+        while (i <=n) {
+            for (int j = 1; j <= n; j++) {
+                System.out.println(i*j+" ");
+                j++;
+            }
+            System.out.println();
+            i++;
+        }
     }
 }
 

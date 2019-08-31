@@ -24,26 +24,28 @@ package by.it.shabalkina.lesson05;
 */
 
 
-import by.it.shabalkina.lesson04.Scanner;
+import java.util.Scanner;
 
 public class TaskA1 {
     public static void main(String[] args) {
-        int[] array=new int[10];
+        int[] mas = new int[10];
         Scanner scanner = new Scanner(System.in);
-        for (int i = array.length - 1; i >= 0; i--) {
-            array[i]=scanner.nextInt();
-
+        for (int i = 9; i >= 0; i--) {
+            mas[i] = scanner.nextInt();
         }
-        for (int element: array);
-
-
+        for (int element : mas) {
+            System.out.println(element);
         }
-
-
-
-
-
-
     }
+
+
+        }
+
+
+
+
+
+
+
 
 

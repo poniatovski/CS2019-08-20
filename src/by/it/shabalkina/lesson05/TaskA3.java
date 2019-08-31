@@ -13,13 +13,13 @@ package by.it.shabalkina.lesson05;
 0 9
 */
 
-import by.it.shabalkina.lesson04.Scanner;
+import java.util.Scanner;
 
 public class TaskA3 {
     public static void main(String[] args) {
         int [] array=new int[10];
-        Scanner scanner= new Scanner(System.in);
-       for (int i=0; 0<array.length-1; i++); {
+        Scanner scanner=new Scanner(System.in);
+       for (int i = 0; i < array.length-1; i++) {
            array[i]=scanner.nextInt();
         }
        int min=array[0];

@@ -1,6 +1,7 @@
 package by.it.shabalkina.lesson05;
 
-import by.it.shabalkina.lesson04.Scanner;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 /*
 Создайте список строк.
@@ -23,15 +24,15 @@ END
 */
 public class TaskA2 {
     public static void main(String[] args) {
-        ArrayList<String> list=new ArrayList<>();
-        Scanner scanner= new Scanner(System.in);
+        ArrayList<String> array=new ArrayList<>();
+        Scanner scanner=new Scanner(System.in);
         for(;;) {
-            String world = scanner.next();
+            String word=scanner.next();
             if (word.equals("END"))
                 break;
-            list.add(world);
+           array.add(word);
         }
-            System.out.println(list);
+            System.out.println(array);
 
         }
 

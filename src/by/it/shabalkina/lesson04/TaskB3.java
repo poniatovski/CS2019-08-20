@@ -25,7 +25,18 @@ package by.it.shabalkina.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        int n = new Scanner(System.in).nextInt();
+        int sum = 0;
+        for (int i = 1;; i++) {
+            sum += i;
+            if (sum > n) break;
+            System.out.print(sum + ",");
+
+        }
+    }
 
 }
