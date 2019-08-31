@@ -25,7 +25,7 @@ public class TaskC1 {
 //        ArrayList <Integer> list = new ArrayList<>();
 //        ArrayList <Integer> list3 = new ArrayList<Integer>(); // %3==0
 //        ArrayList <Integer> list2 = new ArrayList<Integer>(); // %2==0
-//        ArrayList <Integer> listelse = new ArrayList<Integer>(); // other
+//        ArrayList <Integer> listother = new ArrayList<Integer>(); // other
 //
 //        int size = list.size();
 //        while (size < 20)
@@ -42,11 +42,11 @@ public class TaskC1 {
 //            else if (x%2 == 0)
 //                list2.add(x);
 //            else
-//                listelse.add(x);
+//                listother.add(x);
 //        }
 //        printList(list3);
 //        printList(list2);
-//        printList(listelse);
+//        printList(listother);
 //    }
 //
 //    private static void printList(List<Integer> list) {
