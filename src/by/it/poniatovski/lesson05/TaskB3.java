@@ -19,6 +19,13 @@ Index of last element=1
 
 */
 
+import java.util.Scanner;
+
 public class TaskB3 {
+    public static void main(String[] args) {
+
+    }
+
 
 }
+
