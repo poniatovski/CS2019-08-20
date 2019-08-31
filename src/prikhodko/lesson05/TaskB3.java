@@ -19,16 +19,28 @@ Index of last element=1
 
 */
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class TaskB3 {
     public static void main(String[] args) {
         int[] m = new int[10];
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int size = m.length;
+        Scanner sc=new Scanner(System.in);
+        for (int i = 0; i < m.length; i++) {
+            m[i]=sc.nextInt();
+        }
+int first = m[0];
+        int last = m [size-1];
         Arrays.sort(m);
-
+        for (int i = 0; i < size; i++) {
+            if (m[i] == first) {
+                System.out.println("Index of first element="+i);
+            }
+            if (m[i] == last){
+                System.out.println("Index of last element="+i);
+            }
+        }
     }
 
 }

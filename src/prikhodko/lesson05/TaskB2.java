@@ -20,19 +20,24 @@ b=[11, 22, 33, 44, 55, 66, 77, 88, 99, 0]
 
 */
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class TaskB2 {
-    public static void main(String[] args) throws Exception {
-        int[] m = new int[20];
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        for (int i = 0; i < m.length; i++) {
-            m[i] = Integer.parseInt(reader.readLine());
+    public static void main(String[] args) throws Exception{
+        int[]array = new int [20];
+        Scanner sc=new Scanner(System.in);
+        for (int i = 0; i < array.length; i++) {
+            array[i]=sc.nextInt();
         }
-        int[] a = Arrays.copyOfRange(m, 0, 9);
-        int[] b = Arrays.copyOfRange(m, 10, 20);
+        int [] a = new int [10];
+        int [] b = new int [10];
+        int i;
+        int j;
+        for (i = 0, j=10; i < 10; i++, j++) {
+            a[i]=array[i];
+            b[i]=array[j];
+        }
         System.out.println("a="+Arrays.toString(a));
         System.out.println("b="+Arrays.toString(b));
     }
