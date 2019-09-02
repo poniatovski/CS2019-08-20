@@ -5,8 +5,6 @@ package by.it.konovalova.lesson05;
 и выводит их в убывающем порядке. Скорость O(n*n).
 */
 
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class TaskC2 {
@@ -18,17 +16,13 @@ public class TaskC2 {
             array[i] = sc.nextInt();
         }
         sort(array);
-        for (int a = 0; a < 20; a++)
-        System.out.print(array[a]+" ");
+        for (int a = 0; a < 20 - 1; a++)
+            System.out.print(array[a] + " ");
+        System.out.print(array[19]);
     }
 
 
     public static void sort(int[] array) {
-        //int[] array = new int[20];
-        //Scanner sc = new Scanner(System.in);
-            /*for (int i = 0; i <= 19; i++) {
-                array[i] = sc.nextInt();
-            }*/
         int t;
         for (int a = 0; a < 20; a++) {
             for (int b = 19; b > a; b--) {
@@ -38,7 +32,6 @@ public class TaskC2 {
                     array[b] = t;
                 }
             }
-            // System.out.print(array[a]+" ");
         }
     }
 }

@@ -13,32 +13,45 @@ package by.it.konovalova.lesson05;
 import javafx.print.Collation;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
 
-/*public class TaskC1 {
-   /* public static void main(String[] args) throws Exception
-    {
+public class TaskC1 {
+    public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
-        ArrayList<Integer> List = new ArrayList<Integer>(20);
-        ArrayList<Integer> List3 = new ArrayList<Integer>();
-        ArrayList<Integer> List2 = new ArrayList<Integer>();
-        ArrayList<Integer> List1 = new ArrayList<Integer>();
+        List<Integer> List = new ArrayList<Integer>(20);
+        List<Integer> List3 = new ArrayList<Integer>();
+        List<Integer> List2 = new ArrayList<Integer>();
+        List<Integer> List1 = new ArrayList<Integer>();
+
         for (int i = 0; i < 20; i++) {
-            List.set(i, sc.nextInt());
-          }
+            List.add(i, sc.nextInt());
+        }
+
+
         for (int i = 0; i < 20; i++) {
-            if (List(i)%3==0)
-                Collection.add (List1, i);
-            List3.set(i)= List(i);
+            if (List.get(i) % 3 == 0) List3.add(List.get(i));
+        }
+
+
+        for (int i = 0; i < 20; i++) {
+            if (List.get(i) % 2 == 0) List2.add(List.get(i));
+        }
+
+
+        for (int i = 0; i < 20; i++) {
+            if (List.get(i) % 2 != 0 && List.get(i) % 3 != 0) List1.add(List.get(i));
         }
 
     }
 
-    private static void printList(List<Integer> list) {
-        for (Integer aList : list) System.out.println(aList);
+    private static void printList(ArrayList<Integer> List3) {
+
+        for (Integer aList : List3)
+            System.out.println(aList);
+
     }
+}
 
 
-}*/
+
