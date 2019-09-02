@@ -1,6 +1,4 @@
-package by.it._tasks_.lesson04;
-
-import java.util.GregorianCalendar;
+package by.it.shabalkina.lesson04;
 
 /*
 
@@ -29,6 +27,5 @@ import java.util.GregorianCalendar;
 
  */
 public class TaskC2 {
-
 
 }
