@@ -1,7 +1,5 @@
 package by.it._tasks_.lesson04;
 
-import java.util.GregorianCalendar;
-
 /*
 
 На входе вводится число и месяц 2018 года.
@@ -29,6 +27,5 @@ import java.util.GregorianCalendar;
 
  */
 public class TaskC2 {
-
 
 }
