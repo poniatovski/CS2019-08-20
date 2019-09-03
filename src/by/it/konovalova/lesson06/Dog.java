@@ -36,7 +36,7 @@ public class Dog {
         return "Кличка: " + name + ". Возраст: " + age;
     }
 
-/*
+
     private int weight;
     private double power;
 
@@ -47,31 +47,12 @@ public class Dog {
         this.power = power;
     }
 
-    public String getName1() {
-        return name;
-    }
-
-    public void setName1(String name1) {
-        Scanner sc = new Scanner(System.in);
-        this.name = sc.next();
-    }
-
-    public int getAge1() {
-        return age;
-    }
-
-    public void setAge1(int age1) {
-        Scanner sc = new Scanner(System.in);
-        this.age = sc.nextInt();
-    }
-
     public int getWeight() {
         return weight;
     }
 
     public void setWeight(int weight) {
-        Scanner sc = new Scanner(System.in);
-        this.weight = sc.nextInt();
+        this.weight = weight;
     }
 
     public double getPower() {
@@ -79,24 +60,15 @@ public class Dog {
     }
 
     public void setPower(double power) {
-        Scanner sc = new Scanner(System.in);
-        this.power = sc.nextDouble();
+        this.power = power;
     }
 
 
-    boolean win(Dog dog, Dog otherDog) {
+    boolean win(Dog otherDog) {
         double my = 20 * this.age + 30 * this.weight + 50 * this.power;
         double other = 20 * otherDog.age + 30 * otherDog.weight + 50 * otherDog.power;
         if (my > other) return true;
         else return false;
-        /*double age3 = 0.2 * dog.age;
-        double weight3 = 0.3 * dog.weight;
-        double power3 = 0.5 * dog.power;
-        double age4 = 0.2 * otherDog.age;
-        double weight4 = 0.3 * otherDog.weight;
-        double power4 = 0.5 * otherDog.power;
-        if (age3 + weight3 + power3 > age4 + weight4 + power4) return true;
-        else return false;*/
+    }
+
 }
-
-

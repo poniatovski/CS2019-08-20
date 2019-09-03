@@ -33,7 +33,7 @@ boolean win(Dog otherDog)
 import java.util.Scanner;
 
 public class TaskC1 {
-    /*
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Dog dog1 = new Dog(
@@ -46,11 +46,10 @@ public class TaskC1 {
                 sc.nextInt(),
                 sc.nextInt(),
                 sc.nextDouble());
-
-        if (dog1.win(dog1, dog2))
+        if (dog1.win(dog2))
             System.out.println(dog1.getName());
         else
             System.out.println(dog2.getName());
     }
-*/
+
 }
