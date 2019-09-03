@@ -16,13 +16,12 @@ public class TaskC2 {
             array[i] = sc.nextInt();
         }
         sort(array);
-        for (int a = 0; a < 20 - 1; a++)
-            System.out.print(array[a] + " ");
-        System.out.print(array[19]);
+        for (int x : array) {
+            System.out.println(x);
+        }
     }
 
-
-    public static void sort(int[] array) {
+    private static void sort(int[] array) {
         int t;
         for (int a = 0; a < 20; a++) {
             for (int b = 19; b > a; b--) {

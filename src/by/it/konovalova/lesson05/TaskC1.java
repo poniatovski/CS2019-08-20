@@ -10,7 +10,7 @@ package by.it.konovalova.lesson05;
     Сначала тот, который для x%3, потом тот, который для x%2, потом последний.
 */
 
-import javafx.print.Collation;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,10 +42,13 @@ public class TaskC1 {
         for (int i = 0; i < 20; i++) {
             if (List.get(i) % 2 != 0 && List.get(i) % 3 != 0) List1.add(List.get(i));
         }
-
+        printList(List3);
+        printList(List2);
+        printList(List1);
     }
 
-    private static void printList(ArrayList<Integer> List3) {
+
+    private static void printList(List<Integer> List3) {
 
         for (Integer aList : List3)
             System.out.println(aList);
