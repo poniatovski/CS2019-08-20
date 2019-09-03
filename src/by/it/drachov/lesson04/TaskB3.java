@@ -25,7 +25,21 @@ package by.it.drachov.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int sum = 1;
+
+        while (sum <= a) {
+            int sum1 = sum * (sum + 1) / 2;
+            if (sum1 <= a)
+                System.out.print(sum1 + ",");
+            sum++;
+        }
+
+    }
 
 }

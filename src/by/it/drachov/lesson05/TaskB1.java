@@ -10,6 +10,20 @@ package by.it.drachov.lesson05;
 */
 
 
+import java.util.ArrayList;
+
 public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("один");
+        list.add("два");
+        list.add("три");
+        list.add("четыре");
+        list.add("пять");
+        System.out.println(list.size());
+        for (String i : list) {
+            System.out.println(list);
+        }
+    }
 
 }
