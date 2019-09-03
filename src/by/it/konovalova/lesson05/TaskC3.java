@@ -21,31 +21,8 @@ public class TaskC3 {
             System.out.println(x);
         }
     }
-    /*public static void sort(int[] array, int l, int r) {
-        int ml;
-        int mr;
-        for (int j = 0; j < array.length; j++) {
-            for (int i = 1; i < array.length; i++) {
-                if (array[i] > array[0]) array[j] = array[i];
-                else array[]
 
-            }
-        }
-    }*/
-
-    /* public static void sort(int[] array) {
-         int t;
-         for (int a = 0; a < 20; a++) {
-             for (int b = 19; b > a; b--) {
-                 if (array[b - 1] < array[b]) {
-                     t = array[b - 1];
-                     array[b - 1] = array[b];
-                     array[b] = t;
-                 }
-             }
-         }
-     }*/
-    public static void sort(int[] array, int left, int right) {
+    private static void sort(int[] array, int left, int right) {
         int li = left;
         int ri = right;
         int med = array[(li + ri) / 2];

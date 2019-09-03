@@ -21,7 +21,7 @@ public class TaskC2 {
         }
     }
 
-    public static void sort(int[] array) {
+    private static void sort(int[] array) {
         int t;
         for (int a = 0; a < 20; a++) {
             for (int b = 19; b > a; b--) {
